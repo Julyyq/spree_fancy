@@ -13,7 +13,13 @@
   }
 
   dd {
+    display: inline;
     margin-left: inherit;  
+  }
+
+  dd:after {
+    content: '\A';
+    white-space: pre;
   }
   
 }
